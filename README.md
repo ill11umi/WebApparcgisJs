@@ -13,3 +13,5 @@ JavaScript
 HTML5
 GIS data in .geojson and .csv formats (place these in the data folder).
 Esri Feature Layer URLs, accessible with authentication, for displaying dynamic map layers.
+
+#### Note :Due to recent changes in Esri's authentication requirements, direct use of the ArcGIS API in this application was not feasible. Accessing certain feature layers requires user authentication, which prevents public sharing of these resources directly. Therefore, a specific authentication account was created exclusively for this project to allow secure access to these layers while preserving the necessary data privacy and project integrity.
