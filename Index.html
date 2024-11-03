@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Geometries in ArcGIS</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.26/"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="dropdownContainer" style="display: flex; align-items: center;">
+        <select id="regionDropdown" style="margin-right: 10px;">
+            <option value="">Display only the transport stations within a selected region</option>
+
+        </select>
+    
+        <select id="filters" style="margin-right: 10px;">
+            <option value="">Search By proximity</option>
+            <option value="1km">Select proximity within 1 km of Tangier Center</option>
+            <option value="drawPolygon">Select proximity within 3 km of Agadir Center</option>
+            
+        </select>
+        <button id="toggleDrawPolygonBtn">Draw Polygon to Select Transport Stations</button>
+
+
+     </div>
+     
+
+
+    <div id="viewDiv"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+

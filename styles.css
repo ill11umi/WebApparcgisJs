@@ -1,0 +1,56 @@
+html, body, #viewDiv {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.custom-basemap-gallery {
+    width: 50px; /* Adjust the width as necessary */
+    height: 150px; /* Height can be automatic based on content */
+    overflow-y: auto; /* Allows scrolling if content exceeds max-height */
+    background-color: white; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 5px; 
+    z-index: 99; 
+}
+
+.esri-layer-list {
+    width: 50px; /* Adjust the width as necessary */
+    height: 350px; /* Height can be automatic based on content */
+    overflow-y: auto; /* Allows scrolling if content exceeds max-height */
+    background-color: white; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 5px; 
+    z-index: 99;
+    
+}
+#dropdownContainer {
+    margin: 10px; /* Space around the container */
+    display: flex; /* Align dropdowns horizontally */
+    gap: 10px; /* Space between dropdowns */
+}
+
+#searchContainer {
+    display: flex;
+    align-items: center; /* Center vertically */
+    gap: 10px; /* Space between inputs */
+    margin-top: 10px; /* Space above the search container */
+}
+#locationInput, #radiusInput {
+    padding: 5px; /* Padding for better appearance */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    width: 150px; /* Fixed width */
+}
+#searchButton {
+    padding: 5px 10px; /* Padding for the button */
+    background-color: #0078d4; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+#searchButton:hover {
+    background-color: #005a9e; /* Darker blue on hover */
+}
